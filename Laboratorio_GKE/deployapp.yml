@@ -16,10 +16,10 @@ spec:
     spec:
       containers:
       - name: web
-        image: gcr.io/sodium-woodland-326515/myfirstapp:2.0
+        image: console.cloud.google.com/gcr/images/sodium-woodland-326515/GLOBAL/myfirstapp?tag=2.0
         env:
         - name: MESSAGE
-          value: "Rick Morty"
+          value: "Andrade"
         ports:
         - name: http
           containerPort: 80
